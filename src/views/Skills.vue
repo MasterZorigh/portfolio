@@ -2,7 +2,7 @@
   <section class="skills bg-gray" id="skills">
     <b-container>
       <h3 class="text-center font-weight-bold mb-5">
-        My Skills &amp; <span class="text-primary">Services</span>
+        Mes Connaissances &amp; <span class="text-primary">Compétences</span>
       </h3>
     </b-container>
   </section>
