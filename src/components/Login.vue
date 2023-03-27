@@ -57,5 +57,20 @@ export default {
   //   const ui = new firebaseui.auth.AuthUI(firebase.auth());
   //   ui.start("#firebaseui-auth-container", uiConfig);
   // },
+
+  methods: {
+    signInWithGoogle() {
+      const provider = new firebase.auth.GoogleAuthProvider();
+      firebase
+        .auth()
+        .signInWithPopup(provider)
+        .then((result) => {
+          console.log(result);
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+    },
+  }
 };
 </script>
