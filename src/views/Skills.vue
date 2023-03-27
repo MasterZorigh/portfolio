@@ -1,9 +1,40 @@
 <template>
   <section class="skills bg-gray" id="skills">
     <b-container>
-      <h3 class="text-center font-weight-bold mb-5">
-        Mes Connaissances &amp; <span class="text-primary">Compétences</span>
-      </h3>
+      <div class="container">
+        <div class="row">
+          <h3 class="text-center font-weight-bold mb-5">
+            Mes Connaissances &amp;
+            <span class="text-primary">Compétences</span>
+          </h3>
+          <b-col lg="11">
+            <ul class="timeline">
+              <li
+                v-for="skill in skills"
+                :key="skill.id"
+                data-aos="fade-up"
+                data-aos-duration="300"
+              >
+                <b-row align-h="between">
+                  <b-col md="6">
+                    <img
+                      class="img-fluid mx-auto my-0"
+                      style="max-height: 10vh"
+                      :src="skill.icon"
+                      alt="Icon for {{ skill.title }}"
+                    />
+                  </b-col>
+                  <b-col md="6">
+                    <div class="description">
+                      <h6 class="font-weight-bold">{{ skill.title }} <br /></h6>
+                    </div>
+                  </b-col>
+                </b-row>
+              </li>
+            </ul>
+          </b-col>
+        </div>
+      </div>
     </b-container>
   </section>
 </template>
