@@ -2,12 +2,15 @@
   <section class="home">
     <div class="container">
       <div class="row">
-        <div class="mt-3 col-7">
+        <div class="mt-3 col-6">
           <div class="mt-4 d-flex justify-content-between">
-            <h1>BIENVENUE, {{ name }}</h1>
+            <h1>
+              BIENVENUE, 
+              <span class="text-primary">{{ name }}</span>
+            </h1>
           </div>
 
-          <div class="mt-2 col-lg-7 justify-content-between">
+          <div class="mt-2 col-lg-10 justify-content-between">
             <p>
               Je suis Valentin Mantez, développeur web et mobile. Actuellement
               en Licence Professionnelle en "Développement Internet et Mobile" à
@@ -27,12 +30,11 @@
             </p>
           </div>
         </div>
-        <div class="col-lg-5">
+        <div class="col-lg-6 d-flex justify-content-end">
           <img
             src="@/assets/img/profile.jpg"
             alt="Valentin Mantez"
-            class="img-fluid mx-auto my-0"
-            style="max-height: 100vh"
+            class="img-fluid mx-auto my-0 h-100 object-fit-cover max-width-100"
           />
         </div>
       </div>

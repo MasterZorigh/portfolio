@@ -7,7 +7,7 @@
           <h3 class="text-center font-weight-bold mb-5">
             Mes <span class="text-primary">Expériences</span>
           </h3>
-          <h4 class="text-center font-weight-bold mb-5">
+          <h4 class="font-weight-bold mb-5">
             Projets professionnels
           </h4>
           <b-col lg="11">
@@ -40,7 +40,7 @@
               </li>
             </ul>
           </b-col>
-          <h4 class="text-center font-weight-bold mb-5">
+          <h4 class="font-weight-bold mb-5">
             Projets personnels et scolaires
           </h4>
           <b-col lg="11">

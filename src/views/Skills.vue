@@ -7,7 +7,7 @@
             Mes Connaissances &amp;
             <span class="text-primary">Compétences</span>
           </h3>
-          <b-col lg="11">
+          <div class="col-11">
             <ul class="timeline">
               <li
                 v-for="skill in skills"
@@ -15,7 +15,7 @@
                 data-aos="fade-up"
                 data-aos-duration="300"
               >
-                <b-row align-h="between">
+                <b-row>
                   <b-col md="6">
                     <img
                       class="img-fluid mx-auto my-0"
@@ -32,7 +32,7 @@
                 </b-row>
               </li>
             </ul>
-          </b-col>
+          </div>
         </div>
       </div>
     </b-container>

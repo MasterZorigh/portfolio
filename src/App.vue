@@ -27,7 +27,7 @@
   </nav>
 
   <router-view />
-  
+  <Footer />
 </template>
 
 <script>
